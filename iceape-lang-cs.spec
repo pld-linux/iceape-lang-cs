@@ -5,7 +5,7 @@ Summary:	Czech resources for Iceape
 Summary(pl.UTF-8):	Czeskie pliki językowe dla Iceape
 Name:		iceape-lang-%{_lang}
 Version:	1.1.9
-Release:	1
+Release:	2
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
@@ -19,6 +19,7 @@ BuildRequires:	util-linux
 Requires(post,postun):	iceape >= %{version}
 Requires(post,postun):	textutils
 Requires:	iceape >= %{version}
+Obsoletes:	seamonkey-lang-cs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
