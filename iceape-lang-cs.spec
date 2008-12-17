@@ -4,12 +4,12 @@
 Summary:	Czech resources for Iceape
 Summary(pl.UTF-8):	Czeskie pliki językowe dla Iceape
 Name:		iceape-lang-%{_lang}
-Version:	1.1.13
+Version:	1.1.14
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
-# Source0-md5:	e7bc2424ecbd3c6a94588ac3e1aa962d
+# Source0-md5:	6fe0ff83168c0869f3112b8002fd15cd
 Source1:	http://www.mozilla-enigmail.org/download/release/0.95/enigmail-%{_lare}-0.95.xpi
 # Source1-md5:	f98746180b2bdb9c2bd58dfbc270a1d3
 Source2:	gen-installed-chrome.sh
